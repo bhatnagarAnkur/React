@@ -40,6 +40,13 @@ var parent=React.createElement("div",{id:"divParent"},
     // To create Functiona Component uses Arraow functions
 
     const HeaderFunctionalComponent=()=><h2>I am Functional Header</h2>
-    jsxRoot.render(<HeaderFunctionalComponent/>);
+    const TitleComponent=()=>(
+        <div>
+                <h4>I am a title</h4>
+                <HeaderFunctionalComponent/>
+                {jsxReactElement}
+        </div>
+    )
+    jsxRoot.render(<TitleComponent/>);
 
 
