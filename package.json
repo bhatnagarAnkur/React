@@ -4,7 +4,9 @@
   "description": "This is to Initailize the APP",
  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Ankur Bhatnagar",
   "license": "ISC",
