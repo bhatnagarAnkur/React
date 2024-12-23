@@ -31,3 +31,15 @@ var parent=React.createElement("div",{id:"divParent"},
 
     var jsxRoot=ReactDOM.createRoot(document.getElementById("divReactWithJSX"));
     jsxRoot.render(jsxReactElement);
+
+    // React Components
+        // 1. Class Based Components:- Class Based Components uses Javascript classes to create the components
+        // 2. Functional Components:- Functional Based Components uses Javascript Functions to create the components
+
+    // Functional Component is nothing but a javascript function which returns JSX
+    // To create Functiona Component uses Arraow functions
+
+    const HeaderFunctionalComponent=()=><h2>I am Functional Header</h2>
+    jsxRoot.render(<HeaderFunctionalComponent/>);
+
+
