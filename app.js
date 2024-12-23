@@ -23,4 +23,10 @@ var parent=React.createElement("div",{id:"divParent"},
     ]);
 
     var root=ReactDOM.createRoot(document.getElementById("divReact"));
-        root.render(parent);
+    root.render(parent);
+    //---------------------------------------------------------------------------------------
+    /* Craete Elements using JSX */
+    var jsx=<h2>This is an element by JSX</h2>
+
+    var jsxRoot=ReactDOM.createRoot(document.getElementById("divReactWithJSX"));
+    jsxRoot.render(jsx);
